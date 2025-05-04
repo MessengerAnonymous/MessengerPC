@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/6830/6830366.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Messenger</title>
+</head>
+
+<body>
+    <script src="./index.js"></script>
+    <div class="menu">
+        <p style="text-align: center;">
+            <img src="https://cdn-icons-png.flaticon.com/128/6830/6830366.png" alt="logo" height="70px">
+
+        </p>
+        <p style="font-size: larger; text-align: center;">AnonymousMessenger</p>
+        <br>
+
+        <p id="user" style="text-align: center;">
+            ------
+        </p>
+        <p style="text-align:right;">
+            <button onclick="send()" style="margin-left: 40px;">
+                <img src="https://cdn-icons-png.flaticon.com/128/9333/9333991.png" alt="logo" height="30px">
+            </button>
+        </p>
+    </div>
+    <!--  -->
+    <p style="text-align: center;">
+        <div id="body" style="
+        overflow-y: auto;
+max-height: 300px; 
+
+        padding: 10px; margin-left: 30px; height: 300px; width: 110rem; border: none black; border-radius: 20px; background-color: aliceblue;
+                  box-shadow: 10px 10px 100px;"></div>
+    </p>
+
+    <p style="text-align: center;">
+        <input id="input" type="text" class="menu" style=" font-family: font; text-align: center; padding: 15px; margin-left: -40px; margin-top: 3.5rem; padding-left: 40rem; padding-right: 40rem;" id="text">
+    </p>
+
+</body>
+
+</html>

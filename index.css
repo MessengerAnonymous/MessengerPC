@@ -1,0 +1,62 @@
+.menu {
+    padding: 0.3rem;
+    margin: 3rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 30px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 100px;
+}
+
+@keyframes MESSAGE {
+    from {
+        transform: rotateX(180deg);
+    }
+    to {
+        transform: rotateX(0deg);
+    }
+}
+
+@keyframes loading {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.loading {
+    animation: loading 1000ms linear infinite;
+}
+
+@font-face {
+    font-family: font;
+    src: url(./font/CalSans-Regular.ttf);
+}
+
+p {
+    font-family: font;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(47, 206, 108);
+    box-shadow: 5px 5px 100px;
+    padding: 15px;
+    position: absolute;
+    top: 43.5rem;
+    left: 100rem;
+    transition: all;
+    transition-duration: 10ms;
+}
+
+button:active {
+    box-shadow: 15px 15px 100px green;
+    opacity: 0.6;
+}
